@@ -8,81 +8,113 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = assignment
 build_property.RootNamespace = assignment
-build_property.ProjectDir = C:\Users\Hello World\Desktop\Excel Technology\Project_03\assignment\assignment\
+build_property.ProjectDir = F:\Projects\Technology Assignment\assignment\assignment\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Hello World\Desktop\Excel Technology\Project_03\assignment\assignment
+build_property.MSBuildProjectDirectory = F:\Projects\Technology Assignment\assignment\assignment
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Hello World/Desktop/Excel Technology/Project_03/assignment/assignment/Views/Categories/Create.cshtml]
+[F:/Projects/Technology Assignment/assignment/assignment/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/Technology Assignment/assignment/assignment/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/Technology Assignment/assignment/assignment/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/Technology Assignment/assignment/assignment/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/Technology Assignment/assignment/assignment/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/Technology Assignment/assignment/assignment/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/Technology Assignment/assignment/assignment/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/Technology Assignment/assignment/assignment/Views/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hello World/Desktop/Excel Technology/Project_03/assignment/assignment/Views/Categories/Edit.cshtml]
+[F:/Projects/Technology Assignment/assignment/assignment/Views/Categories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hello World/Desktop/Excel Technology/Project_03/assignment/assignment/Views/Categories/Index.cshtml]
+[F:/Projects/Technology Assignment/assignment/assignment/Views/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hello World/Desktop/Excel Technology/Project_03/assignment/assignment/Views/Expense/Create.cshtml]
+[F:/Projects/Technology Assignment/assignment/assignment/Views/Expense/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hello World/Desktop/Excel Technology/Project_03/assignment/assignment/Views/Expense/Edit.cshtml]
+[F:/Projects/Technology Assignment/assignment/assignment/Views/Expense/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hello World/Desktop/Excel Technology/Project_03/assignment/assignment/Views/Expense/Index.cshtml]
+[F:/Projects/Technology Assignment/assignment/assignment/Views/Expense/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hello World/Desktop/Excel Technology/Project_03/assignment/assignment/Views/Home/Index.cshtml]
+[F:/Projects/Technology Assignment/assignment/assignment/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hello World/Desktop/Excel Technology/Project_03/assignment/assignment/Views/Home/Privacy.cshtml]
+[F:/Projects/Technology Assignment/assignment/assignment/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hello World/Desktop/Excel Technology/Project_03/assignment/assignment/Views/Shared/Error.cshtml]
+[F:/Projects/Technology Assignment/assignment/assignment/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hello World/Desktop/Excel Technology/Project_03/assignment/assignment/Views/Shared/_categoryerror.cshtml]
+[F:/Projects/Technology Assignment/assignment/assignment/Views/Shared/_categoryerror.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9jYXRlZ29yeWVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hello World/Desktop/Excel Technology/Project_03/assignment/assignment/Views/Shared/_dateerror.cshtml]
+[F:/Projects/Technology Assignment/assignment/assignment/Views/Shared/_dateerror.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9kYXRlZXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hello World/Desktop/Excel Technology/Project_03/assignment/assignment/Views/Shared/_duplicate.cshtml]
+[F:/Projects/Technology Assignment/assignment/assignment/Views/Shared/_duplicate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9kdXBsaWNhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hello World/Desktop/Excel Technology/Project_03/assignment/assignment/Views/Shared/_error.cshtml]
+[F:/Projects/Technology Assignment/assignment/assignment/Views/Shared/_error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9lcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hello World/Desktop/Excel Technology/Project_03/assignment/assignment/Views/Shared/_success.cshtml]
+[F:/Projects/Technology Assignment/assignment/assignment/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/Technology Assignment/assignment/assignment/Views/Shared/_success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9zdWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hello World/Desktop/Excel Technology/Project_03/assignment/assignment/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/Projects/Technology Assignment/assignment/assignment/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hello World/Desktop/Excel Technology/Project_03/assignment/assignment/Views/_ViewImports.cshtml]
+[F:/Projects/Technology Assignment/assignment/assignment/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hello World/Desktop/Excel Technology/Project_03/assignment/assignment/Views/_ViewStart.cshtml]
+[F:/Projects/Technology Assignment/assignment/assignment/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hello World/Desktop/Excel Technology/Project_03/assignment/assignment/Views/Shared/_Layout.cshtml]
+[F:/Projects/Technology Assignment/assignment/assignment/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-iwpowv5jli

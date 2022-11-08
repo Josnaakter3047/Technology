@@ -1,0 +1,64 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<h1 class="text-center">@ViewData["Title"]</h1>
+<div class="login-form-icon text-center">
+    <i class="fas fa-user-circle fa-9x text-secondary"></i>
+</div>
+<div class="row">
+    <div class="offset-4 col-md-6">
+        <section>
+            
+           
+            <form id="account" method="post">
+
+                <div asp-validation-summary="All" class="text-danger"></div>
+
+                <div class="row mb-2">
+                    @*<label asp-for="Input.Email" class="col-form-label col-md-1"></label>*@
+                    <div class="col-md-8">
+                        <input asp-for="Input.Email" class="form-control" placeholder="enter your email"/>
+                    </div>
+                    <div class="col-md-2">
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    </div>
+
+                </div>
+                <div class="row mb-2">
+                    @*<label asp-for="Input.Password" class="col-form-label col-md-1"></label>*@
+                    <div class="col-md-8">
+                        <input asp-for="Input.Password" class="form-control" placeholder="enter your password"/>
+                    </div>
+                    <div class="col-md-2">
+                        <span asp-validation-for="Input.Password" class="text-danger col-md-2"></span>
+                    </div>
+
+                </div>
+                <div class="row mb-2">
+                    <div class="checkbox">
+                        <label asp-for="Input.RememberMe">
+                            <input asp-for="Input.RememberMe" />
+                            @Html.DisplayNameFor(m => m.Input.RememberMe)
+                            <a href="/Identity/Account/Register">Please Register here.</a>
+                        </label>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="">
+                        <button type="submit" class="btn btn-info col-md-8">Log in</button>
+                    </div>
+                </div>
+
+            </form>
+        </section>
+    </div>
+    
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

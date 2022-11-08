@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hello World\\Desktop\\Excel Technology\\Project_03\\assignment\\assignment\\assignment.csproj": {}
+    "F:\\Projects\\Technology Assignment\\assignment\\assignment\\assignment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hello World\\Desktop\\Excel Technology\\Project_03\\assignment\\assignment\\assignment.csproj": {
+    "F:\\Projects\\Technology Assignment\\assignment\\assignment\\assignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hello World\\Desktop\\Excel Technology\\Project_03\\assignment\\assignment\\assignment.csproj",
+        "projectUniqueName": "F:\\Projects\\Technology Assignment\\assignment\\assignment\\assignment.csproj",
         "projectName": "assignment",
-        "projectPath": "C:\\Users\\Hello World\\Desktop\\Excel Technology\\Project_03\\assignment\\assignment\\assignment.csproj",
+        "projectPath": "F:\\Projects\\Technology Assignment\\assignment\\assignment\\assignment.csproj",
         "packagesPath": "C:\\Users\\Hello World\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hello World\\Desktop\\Excel Technology\\Project_03\\assignment\\assignment\\obj\\",
+        "outputPath": "F:\\Projects\\Technology Assignment\\assignment\\assignment\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,6 +46,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.10, )"
@@ -63,6 +71,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.10, )"
             }

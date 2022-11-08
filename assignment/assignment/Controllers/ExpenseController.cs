@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using assignment.Models;
 using assignment.Repository;
+using Microsoft.AspNetCore.Authorization;
 
 namespace assignment.Controllers
 {
@@ -33,14 +34,14 @@ namespace assignment.Controllers
                             }).ToList();
             return View(expenses);
         }
-        
 
+        [Authorize]
         public IActionResult Create()
         {
             ViewBag.categoryList = repoCat.GetAll();
             return View();
         }
-        
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(Expenditures expense)
@@ -67,14 +68,14 @@ namespace assignment.Controllers
             }
 
         }
-        
+        [Authorize]
         public IActionResult Edit(int id)
         {
             ViewBag.categoryList = repoCat.GetAll();
             var expenditures = db.Expenditures.FirstOrDefault(x => x.Id == id);
             return View(expenditures);
         }
-        
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Expenditures expense)
@@ -100,7 +101,7 @@ namespace assignment.Controllers
             }
 
         }
-        
+        [Authorize]
         public IActionResult Delete(int id)
         {
             var expenditures = repo.GetById(id);

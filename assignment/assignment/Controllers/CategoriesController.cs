@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using assignment.Models;
 using assignment.Repository;
+using Microsoft.AspNetCore.Authorization;
 
 namespace assignment.Controllers
 {
@@ -19,10 +20,12 @@ namespace assignment.Controllers
             var category = repo.GetAll();
             return View(category);
         }
+        [Authorize]
         public IActionResult Create()
         {
             return View();
         }
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(Category category)
@@ -45,13 +48,13 @@ namespace assignment.Controllers
                 return PartialView("_error");
             }
         }
-        
+        [Authorize]
         public IActionResult Edit(int id)
         {
             var category = repo.GetById(id);
             return View(category);
         }
-        
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Category category)
@@ -74,6 +77,7 @@ namespace assignment.Controllers
             }
 
         }
+        [Authorize]
         public IActionResult Delete(int id)
         {
             var category = repo.GetById(id);
